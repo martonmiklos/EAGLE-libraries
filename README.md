@@ -13,3 +13,7 @@ http://www.cdebyte.com/product-view-news.aspx?id=239
 Library for the WT51822-S4AT nRF51822 based BLE module 
 More info here:
 http://www.tme.eu/hu/Document/64d0d28b5cc96f629f40b0868c52ca49/wt51822-s4at.pdf
+
+## LT89x0.lbr - Untested
+Library for the NST semiconductor's RF modules
+- XY-WB which is said to be LT8920 based module
