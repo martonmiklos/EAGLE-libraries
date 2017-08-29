@@ -199,7 +199,7 @@ It features onboard oscillator (both main &amp; low power 32.768 Hz), and integr
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="YJ-14015">
+<deviceset name="YJ-14015" prefix="U" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="YJ-14015" x="0" y="2.54"/>
 </gates>
