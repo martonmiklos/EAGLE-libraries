@@ -28,3 +28,7 @@ https://www.hirose.com/product/en/download_file/key_name/FH19C%2D6S%2D0.5SH%2899
 ## MINI-32.lbr - Untested
 Library for the Mikroelektronika's PIC32MX534F064H based MINI-32 board
 https://www.mikroe.com/mini-pic32mx
+
+## allegro.lbr
+A3940 - tested
+A3940/41 - dual symbol for the A3940 and A3941
