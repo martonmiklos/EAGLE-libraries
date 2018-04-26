@@ -32,3 +32,7 @@ https://www.mikroe.com/mini-pic32mx
 ## allegro.lbr
 A3940 - tested
 A3940/41 - dual symbol for the A3940 and A3941
+
+## STM8S003_EVB.lbr - Untested
+Library for the chinese ~1 USD STM8S003F3 boards like this one:
+http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
