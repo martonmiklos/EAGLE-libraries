@@ -8,7 +8,7 @@ Library for the E73-2G4M04S nRF52832 based BLE module
 More info here:
 http://www.cdebyte.com/product-view-news.aspx?id=239
 
-## WT51822-S4AT.lbr - Untested
+## WT51822-S4AT.lbr - Tested
 Library for the WT51822-S4AT nRF51822 based BLE module 
 More info here:
 http://www.tme.eu/hu/Document/64d0d28b5cc96f629f40b0868c52ca49/wt51822-s4at.pdf
@@ -32,3 +32,7 @@ https://www.mikroe.com/mini-pic32mx
 ## allegro.lbr
 A3940 - tested
 A3940/41 - dual symbol for the A3940 and A3941
+
+## STM8S003_EVB.lbr - Untested
+Library for the chinese ~1 USD STM8S003F3 boards like this one:
+http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
