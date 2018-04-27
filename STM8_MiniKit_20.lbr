@@ -59,7 +59,7 @@
 </layers>
 <library>
 <packages>
-<package name="STM8S003_EVB_NO_PWR">
+<package name="STM8_MINIKIT_20_NO_PWR">
 <pad name="1" x="1.3" y="24.16" drill="0.6" shape="long"/>
 <pad name="2" x="1.3" y="21.62" drill="0.6" shape="long"/>
 <pad name="3" x="1.3" y="19.08" drill="0.6" shape="long"/>
@@ -95,7 +95,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="STM8S003_EVB_SHIELD">
+<symbol name="STM8_MINIKIT_20_SHIELD">
 <pin name="PD4" x="-17.78" y="10.16" length="short"/>
 <pin name="PD5" x="-17.78" y="7.62" length="short"/>
 <pin name="PD6" x="-17.78" y="5.08" length="short"/>
@@ -125,12 +125,12 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM8S003_EVB_NOPWR" prefix="U">
+<deviceset name="STM8_MINIKIT_20_NOPWR" prefix="U">
 <gates>
-<gate name="G$1" symbol="STM8S003_EVB_SHIELD" x="0" y="0"/>
+<gate name="G$1" symbol="STM8_MINIKIT_20_SHIELD" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="STM8S003_EVB_NO_PWR">
+<device name="" package="STM8_MINIKIT_20_NO_PWR">
 <connects>
 <connect gate="G$1" pin="!RST" pad="4"/>
 <connect gate="G$1" pin="GND" pad="7"/>
