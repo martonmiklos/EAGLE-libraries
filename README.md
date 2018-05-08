@@ -36,3 +36,7 @@ A3940/41 - dual symbol for the A3940 and A3941
 ## STM8S003_EVB.lbr - Untested
 Library for the chinese ~1 USD STM8S003F3 boards like this one:
 http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
+
+## BTM-T1-C.lbr - Tested verified as an UART - BT module
+Library for a Class 1 Bluetooth 2.0 DIP module:
+http://www.ecomthai.com/userfiles/BTM-T1-C.pdf
