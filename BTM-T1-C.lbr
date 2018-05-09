@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BTM-T1-C">
+<wire x1="-17.78" y1="-20.32" x2="17.78" y2="-20.32" width="0.127" layer="21"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="27.94" width="0.127" layer="21"/>
+<wire x1="17.78" y1="27.94" x2="-17.78" y2="27.94" width="0.127" layer="21"/>
+<wire x1="-17.78" y1="27.94" x2="-17.78" y2="-20.32" width="0.127" layer="21"/>
+<pad name="P$1" x="-14.04" y="15.24" drill="0.8" shape="long"/>
+<pad name="P$2" x="-14.04" y="12.7" drill="0.8" shape="long"/>
+<pad name="P$3" x="-14.04" y="10.16" drill="0.8" shape="long"/>
+<pad name="P$4" x="-14.04" y="7.62" drill="0.8" shape="long"/>
+<pad name="P$5" x="-14.04" y="5.08" drill="0.8" shape="long"/>
+<pad name="P$6" x="-14.04" y="2.54" drill="0.8" shape="long"/>
+<pad name="P$7" x="-14.04" y="0" drill="0.8" shape="long"/>
+<pad name="P$8" x="-14.04" y="-2.54" drill="0.8" shape="long"/>
+<pad name="P$9" x="-14.04" y="-5.08" drill="0.8" shape="long"/>
+<pad name="P$10" x="-14.04" y="-7.62" drill="0.8" shape="long"/>
+<pad name="P$11" x="-14.04" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$12" x="-14.04" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$13" x="-14.04" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$14" x="-14.04" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$15" x="14.04" y="-17.78" drill="0.8" shape="long"/>
+<pad name="P$16" x="14.04" y="-15.24" drill="0.8" shape="long"/>
+<pad name="P$17" x="14.04" y="-12.7" drill="0.8" shape="long"/>
+<pad name="P$18" x="14.04" y="-10.16" drill="0.8" shape="long"/>
+<pad name="P$19" x="14.04" y="-7.62" drill="0.8" shape="long"/>
+<pad name="P$20" x="14.04" y="-5.08" drill="0.8" shape="long"/>
+<pad name="P$21" x="14.04" y="-2.54" drill="0.8" shape="long"/>
+<pad name="P$22" x="14.04" y="0" drill="0.8" shape="long"/>
+<pad name="P$23" x="14.04" y="2.54" drill="0.8" shape="long"/>
+<pad name="P$24" x="14.04" y="5.08" drill="0.8" shape="long"/>
+<pad name="P$25" x="14.04" y="7.62" drill="0.8" shape="long"/>
+<pad name="P$26" x="14.04" y="10.16" drill="0.8" shape="long"/>
+<pad name="P$27" x="14.04" y="12.7" drill="0.8" shape="long"/>
+<pad name="P$28" x="14.04" y="15.24" drill="0.8" shape="long"/>
+<text x="-2.54" y="22.86" size="1.27" layer="25" font="vector" ratio="13">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BTM-T1-C">
+<description>Based on the new High power Bluetooth serial modules the new low cost Bluetooth serial adapters allow for
+simple integration into microcontroller designs as well as providing for standalone use as cable replacement
+using Available with a 3.3 volt compatible interface and a TTL level interface, both available with onboard
+antenna or UFL connector.</description>
+<wire x1="-15.24" y1="20.32" x2="12.7" y2="20.32" width="0.254" layer="94"/>
+<wire x1="12.7" y1="20.32" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="-15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-17.78" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
+<pin name="AI00" x="17.78" y="17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="AI01" x="17.78" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-20.32" y="17.78" visible="pin" length="middle" direction="pas"/>
+<pin name="PCM_CLK" x="-20.32" y="-10.16" visible="pin" length="middle"/>
+<pin name="PCM_IN" x="-20.32" y="-15.24" visible="pin" length="middle" direction="in"/>
+<pin name="PCM_OUT" x="-20.32" y="-12.7" visible="pin" length="middle" direction="out"/>
+<pin name="PCM_SYNC" x="17.78" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="PI00_RX" x="17.78" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="PI01_TX" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="PI02" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="PI03" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PI04" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PI07" x="17.78" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="PI08" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="PI09" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="PIO10" x="-20.32" y="12.7" visible="pin" length="middle"/>
+<pin name="RESET" x="17.78" y="-7.62" visible="pin" length="middle" direction="in" rot="R180"/>
+<pin name="SPI_CLK" x="-20.32" y="7.62" visible="pin" length="middle" direction="in"/>
+<pin name="SPI_CSB" x="-20.32" y="5.08" visible="pin" length="middle" direction="in"/>
+<pin name="SPI_MISO" x="-20.32" y="10.16" visible="pin" length="middle" direction="out"/>
+<pin name="SPI_MOSI" x="-20.32" y="2.54" visible="pin" length="middle" direction="in"/>
+<pin name="UART_CTS" x="-20.32" y="0" visible="pin" length="middle" direction="in"/>
+<pin name="UART_RTS" x="-20.32" y="-2.54" visible="pin" length="middle" direction="out"/>
+<pin name="UART_RX" x="-20.32" y="-7.62" visible="pin" length="middle" direction="in"/>
+<pin name="UART_TX" x="-20.32" y="-5.08" visible="pin" length="middle" direction="out"/>
+<pin name="USB_DN" x="17.78" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="USB_DP" x="17.78" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="-20.32" y="15.24" visible="pin" length="middle" direction="pas"/>
+<text x="-7.62" y="25.4" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="22.86" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BTM-T1-C" prefix="IC">
+<description>TTL Bluetooth Serial Module Class 1&lt;br&gt;
+(Model: BTM-T1-C)</description>
+<gates>
+<gate name="G$1" symbol="BTM-T1-C" x="5.08" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="BTM-T1-C">
+<connects>
+<connect gate="G$1" pin="AI00" pad="P$28"/>
+<connect gate="G$1" pin="AI01" pad="P$27"/>
+<connect gate="G$1" pin="GND" pad="P$1"/>
+<connect gate="G$1" pin="PCM_CLK" pad="P$12"/>
+<connect gate="G$1" pin="PCM_IN" pad="P$14"/>
+<connect gate="G$1" pin="PCM_OUT" pad="P$13"/>
+<connect gate="G$1" pin="PCM_SYNC" pad="P$15"/>
+<connect gate="G$1" pin="PI00_RX" pad="P$26"/>
+<connect gate="G$1" pin="PI01_TX" pad="P$25"/>
+<connect gate="G$1" pin="PI02" pad="P$24"/>
+<connect gate="G$1" pin="PI03" pad="P$23"/>
+<connect gate="G$1" pin="PI04" pad="P$22"/>
+<connect gate="G$1" pin="PI07" pad="P$21"/>
+<connect gate="G$1" pin="PI08" pad="P$20"/>
+<connect gate="G$1" pin="PI09" pad="P$19"/>
+<connect gate="G$1" pin="PIO10" pad="P$3"/>
+<connect gate="G$1" pin="RESET" pad="P$18"/>
+<connect gate="G$1" pin="SPI_CLK" pad="P$5"/>
+<connect gate="G$1" pin="SPI_CSB" pad="P$6"/>
+<connect gate="G$1" pin="SPI_MISO" pad="P$4"/>
+<connect gate="G$1" pin="SPI_MOSI" pad="P$7"/>
+<connect gate="G$1" pin="UART_CTS" pad="P$8"/>
+<connect gate="G$1" pin="UART_RTS" pad="P$9"/>
+<connect gate="G$1" pin="UART_RX" pad="P$11"/>
+<connect gate="G$1" pin="UART_TX" pad="P$10"/>
+<connect gate="G$1" pin="USB_DN" pad="P$16"/>
+<connect gate="G$1" pin="USB_DP" pad="P$17"/>
+<connect gate="G$1" pin="VCC" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
