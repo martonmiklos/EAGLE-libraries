@@ -40,3 +40,7 @@ http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
 ## BTM-T1-C.lbr - Tested verified as an UART - BT module
 Library for a Class 1 Bluetooth 2.0 DIP module:
 http://www.ecomthai.com/userfiles/BTM-T1-C.pdf
+
+## ME_MAX 22p5 2-2.lbr
+Library including the PCB contour and screw terminal pad positions for the Phoenix contact ME MAX 22,5 2-2 KMGY - 2713625 box:
+https://www.phoenixcontact.com/online/portal/hu?uri=pxc-oc-itemdetail:pid=2713625&library=huhu&tab=1
