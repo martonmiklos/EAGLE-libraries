@@ -44,3 +44,6 @@ http://www.ecomthai.com/userfiles/BTM-T1-C.pdf
 ## ME_MAX 22p5 2-2.lbr
 Library including the PCB contour and screw terminal pad positions for the Phoenix contact ME MAX 22,5 2-2 KMGY - 2713625 box:
 https://www.phoenixcontact.com/online/portal/hu?uri=pxc-oc-itemdetail:pid=2713625&library=huhu&tab=1
+
+## CJ125.lbr
+Library for the Bosch CJ125 wideband lambda sensor interface ASIC. SO24W only package.
