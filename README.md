@@ -40,3 +40,6 @@ http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
 ## BTM-T1-C.lbr - Tested verified as an UART - BT module
 Library for a Class 1 Bluetooth 2.0 DIP module:
 http://www.ecomthai.com/userfiles/BTM-T1-C.pdf
+
+## swim.lbr - Tested verified
+Library containing 2.54 grid SWIM programming header for STM8 (pinout compatible with the STLinkV2)
