@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -141,9 +142,9 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <symbol name="CJ125">
 <description>The integrated circuit CJ125 is a control and amplifier circuit for a wide range λ-Sensor LSU4.x for the continuous regulation of λ in combination with the sensor in the range of λ = 0.65... • (air).</description>
 <text x="-20.32" y="36.83" size="1.27" layer="95">&gt;NAME</text>
-<text x="-20.32" y="-36.83" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-20.32" y="-41.91" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="RM" x="-25.4" y="33.02" length="short" direction="pas"/>
-<pin name="CM" x="-25.4" y="27.94" length="short" direction="pas"/>
+<pin name="CM" x="-25.4" y="30.48" length="short" direction="pas"/>
 <pin name="VCC" x="-10.16" y="38.1" length="short" direction="pas" rot="R270"/>
 <pin name="UB" x="5.08" y="38.1" length="short" direction="pas" rot="R270"/>
 <pin name="!RST" x="22.86" y="27.94" length="short" direction="in" rot="R180"/>
@@ -155,21 +156,21 @@ wide body 7.5 mm/JEDEC MO-119AA</description>
 <pin name="UR" x="22.86" y="0" length="short" direction="pas" rot="R180"/>
 <pin name="UA" x="22.86" y="-7.62" length="short" direction="pas" rot="R180"/>
 <pin name="RF" x="22.86" y="-12.7" length="short" direction="pas" rot="R180"/>
-<pin name="CF" x="22.86" y="-22.86" length="short" direction="pas" rot="R180"/>
-<pin name="DIAHG" x="22.86" y="-27.94" length="short" direction="in" rot="R180"/>
-<pin name="DIAHD" x="22.86" y="-30.48" length="short" direction="in" rot="R180"/>
-<pin name="GND" x="-2.54" y="-35.56" length="short" direction="pas" rot="R90"/>
-<pin name="IA" x="-25.4" y="-27.94" length="short" direction="pas"/>
-<pin name="IP" x="-25.4" y="-15.24" length="short" direction="pas"/>
-<pin name="VM" x="-25.4" y="5.08" length="short" direction="pas"/>
-<pin name="US" x="-25.4" y="10.16" length="short" direction="pas"/>
-<pin name="UP" x="-25.4" y="15.24" length="short" direction="pas"/>
-<pin name="UN" x="-25.4" y="20.32" length="short" direction="pas"/>
+<pin name="CF" x="22.86" y="-27.94" length="short" direction="pas" rot="R180"/>
+<pin name="DIAHG" x="22.86" y="-33.02" length="short" direction="in" rot="R180"/>
+<pin name="DIAHD" x="22.86" y="-35.56" length="short" direction="in" rot="R180"/>
+<pin name="GND" x="-2.54" y="-40.64" length="short" direction="pas" rot="R90"/>
+<pin name="IA" x="-25.4" y="-35.56" length="short" direction="pas"/>
+<pin name="IP" x="-25.4" y="-20.32" length="short" direction="pas"/>
+<pin name="VM" x="-25.4" y="22.86" length="short" direction="pas"/>
+<pin name="US" x="-25.4" y="-5.08" length="short" direction="pas"/>
+<pin name="UP" x="-25.4" y="0" length="short" direction="pas"/>
+<pin name="UN" x="-25.4" y="15.24" length="short" direction="pas"/>
 <pin name="RS" x="-25.4" y="25.4" length="short" direction="pas"/>
 <wire x1="-22.86" y1="35.56" x2="20.32" y2="35.56" width="0.254" layer="94"/>
-<wire x1="20.32" y1="35.56" x2="20.32" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="20.32" y1="-33.02" x2="-22.86" y2="-33.02" width="0.254" layer="94"/>
-<wire x1="-22.86" y1="-33.02" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
+<wire x1="20.32" y1="35.56" x2="20.32" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-38.1" x2="-22.86" y2="-38.1" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-38.1" x2="-22.86" y2="35.56" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
