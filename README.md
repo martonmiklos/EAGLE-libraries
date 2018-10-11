@@ -41,6 +41,9 @@ http://embedonix.com/wp-content/uploads/2015/10/stm8s_board.jpg
 Library for a Class 1 Bluetooth 2.0 DIP module:
 http://www.ecomthai.com/userfiles/BTM-T1-C.pdf
 
+## swim.lbr - Tested verified
+Library containing 2.54 grid SWIM programming header for STM8 (pinout compatible with the STLinkV2)
+
 ## ME_MAX 22p5 2-2.lbr - Untested
 Library including the PCB contour and screw terminal pad positions for the Phoenix contact ME MAX 22,5 2-2 KMGY - 2713625 box:
 https://www.phoenixcontact.com/online/portal/hu?uri=pxc-oc-itemdetail:pid=2713625&library=huhu&tab=1
