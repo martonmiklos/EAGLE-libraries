@@ -56,3 +56,9 @@ Library for the Mornsun B_S-1W series DCDC converters
 
 ## AMPHENOL_LMJ1998824110DL1T39J.lbr - Untested
 Library for the AMPHENOL LMJ1998824110DL1T39J RJ45 connector with integrated magnetics
+
+## tag-connect.lbr - Untested
+Extended version of the libraries found here:
+http://www.tag-connect.com/tag-connect-downloads
+
+ * Added TC2030_SWD
