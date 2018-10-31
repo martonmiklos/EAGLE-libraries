@@ -60,5 +60,5 @@ Library for the AMPHENOL LMJ1998824110DL1T39J RJ45 connector with integrated mag
 ## Littlefuse_SRV05.lbr - Untested
 Library for the Littlefuse SRV05 TVS diode array
 
-## stlinkv3.lbr - Unfinished, untested
+## stlinkv3.lbr - Untested
 Hat component for StLink V3 (MB1440 replacement).
