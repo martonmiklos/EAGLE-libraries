@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -126,6 +126,72 @@ TME order codes:&lt;br&gt;
 <pad name="STDC_14_4" x="-27.315" y="2.54" drill="0.65" rot="R90"/>
 <pad name="STDC_14_2" x="-27.315" y="3.81" drill="0.65" rot="R90"/>
 </package>
+<package name="STLINKV3_HAT_JTAG_MINIMAL">
+<description>Footprint for creating hat like board to the StLink V3 with through hole 1.27 female headers.&lt;br&gt;
+TME order codes:&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;1pcs DS1065-03-2X7S8BV (2x7)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-34.95" y1="-18.41" x2="-28.41" y2="-24.95" width="0" layer="20" curve="-90"/>
+<wire x1="-34.95" y1="-18.41" x2="-34.95" y2="18.41" width="0" layer="20"/>
+<wire x1="-28.41" y1="24.95" x2="-34.95" y2="18.41" width="0" layer="20" curve="-90"/>
+<wire x1="4.28" y1="-24.95" x2="-28.41" y2="-24.95" width="0" layer="20"/>
+<text x="-2.25" y="9.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-13.14" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="CENTER" x="0" y="0" drill="3" diameter="6" shape="octagon"/>
+<pad name="STDC_14_9" x="-28.585" y="-1.27" drill="0.65" rot="R90"/>
+<pad name="STDC_14_10" x="-27.315" y="-1.27" drill="0.65" rot="R90"/>
+<pad name="STDC_14_7" x="-28.585" y="0" drill="0.65" rot="R90"/>
+<pad name="STDC_14_8" x="-27.315" y="0" drill="0.65" rot="R90"/>
+<pad name="STDC_14_5" x="-28.585" y="1.27" drill="0.65" rot="R90"/>
+<pad name="STDC_14_6" x="-27.315" y="1.27" drill="0.65" rot="R90"/>
+<pad name="STDC_14_11" x="-28.585" y="-2.54" drill="0.65" rot="R90"/>
+<pad name="STDC_14_12" x="-27.315" y="-2.54" drill="0.65" rot="R90"/>
+<pad name="STDC_14_13" x="-28.585" y="-3.81" drill="0.65" rot="R90"/>
+<pad name="STDC_14_14" x="-27.315" y="-3.81" drill="0.65" rot="R90" first="yes"/>
+<pad name="STDC_14_3" x="-28.585" y="2.54" drill="0.65" rot="R90"/>
+<pad name="STDC_14_1" x="-28.585" y="3.81" drill="0.65" rot="R90"/>
+<pad name="STDC_14_4" x="-27.315" y="2.54" drill="0.65" rot="R90"/>
+<pad name="STDC_14_2" x="-27.315" y="3.81" drill="0.65" rot="R90"/>
+<wire x1="4.28" y1="24.95" x2="-28.41" y2="24.95" width="0" layer="20"/>
+<wire x1="4.28" y1="24.95" x2="4.28" y2="-24.95" width="0" layer="20"/>
+</package>
+<package name="STLINKV3_HAT_BRIDGE_MINIMAL">
+<description>Footprint for creating hat like board to the StLink V3 with through hole 1.27 female headers.&lt;br&gt;
+TME order codes:&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;2pcs DS1065-03-2X5S8BV (2x5)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<wire x1="-4.28" y1="-24.95" x2="-4.28" y2="24.95" width="0" layer="20"/>
+<wire x1="28.41" y1="-24.95" x2="-4.28" y2="-24.95" width="0" layer="20"/>
+<wire x1="28.41" y1="24.95" x2="-4.28" y2="24.95" width="0" layer="20"/>
+<wire x1="34.95" y1="-18.41" x2="34.95" y2="18.41" width="0" layer="20"/>
+<wire x1="28.41" y1="-24.95" x2="34.95" y2="-18.41" width="0" layer="20" curve="-90"/>
+<wire x1="34.95" y1="18.41" x2="28.41" y2="24.95" width="0" layer="20" curve="-90"/>
+<text x="-2.25" y="9.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-13.14" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="CENTER" x="0" y="0" drill="3" diameter="6" shape="octagon"/>
+<pad name="SPI_6" x="16.05" y="-17.765" drill="0.65"/>
+<pad name="SPI_5" x="16.05" y="-19.035" drill="0.65"/>
+<pad name="SPI_8" x="17.32" y="-17.765" drill="0.65"/>
+<pad name="SPI_7" x="17.32" y="-19.035" drill="0.65"/>
+<pad name="SPI_10" x="18.59" y="-17.765" drill="0.65"/>
+<pad name="SPI_9" x="18.59" y="-19.035" drill="0.65"/>
+<pad name="SPI_4" x="14.78" y="-17.765" drill="0.65"/>
+<pad name="SPI_3" x="14.78" y="-19.035" drill="0.65"/>
+<pad name="SPI_2" x="13.51" y="-17.765" drill="0.65"/>
+<pad name="SPI_1" x="13.51" y="-19.035" drill="0.65" first="yes"/>
+<pad name="UART_5" x="16.05" y="19.035" drill="0.65"/>
+<pad name="UART_6" x="16.05" y="17.765" drill="0.65"/>
+<pad name="UART_3" x="17.32" y="19.035" drill="0.65"/>
+<pad name="UART_4" x="17.32" y="17.765" drill="0.65"/>
+<pad name="UART_1" x="18.59" y="19.035" drill="0.65"/>
+<pad name="UART_2" x="18.59" y="17.765" drill="0.65"/>
+<pad name="UART_7" x="14.78" y="19.035" drill="0.65"/>
+<pad name="UART_8" x="14.78" y="17.765" drill="0.65"/>
+<pad name="UART_9" x="13.51" y="19.035" drill="0.65"/>
+<pad name="UART_10" x="13.51" y="17.765" drill="0.65" first="yes"/>
+</package>
 </packages>
 <symbols>
 <symbol name="STDC_14(JTAG/SWD)">
@@ -188,49 +254,112 @@ TME order codes:&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="STLINK_V3_HAT">
+<deviceset name="STLINK_V3_HAT" prefix="CON">
 <gates>
-<gate name="SPI" symbol="SPI" x="-12.7" y="30.48"/>
-<gate name="JTAG/SWD" symbol="STDC_14(JTAG/SWD)" x="-10.16" y="5.08"/>
-<gate name="UART/CAN/I2C" symbol="UART" x="-7.62" y="-20.32"/>
+<gate name="_SPI_GPIO" symbol="SPI" x="-12.7" y="30.48"/>
+<gate name="_JTAG/SWD" symbol="STDC_14(JTAG/SWD)" x="-10.16" y="5.08"/>
+<gate name="_UART_CAN_I2C" symbol="UART" x="-7.62" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="STLINKV3_HAT">
 <connects>
-<connect gate="JTAG/SWD" pin="!RST" pad="STDC_14_12"/>
-<connect gate="JTAG/SWD" pin="GND@1" pad="STDC_14_5"/>
-<connect gate="JTAG/SWD" pin="GND@2" pad="STDC_14_7"/>
-<connect gate="JTAG/SWD" pin="GND_DET" pad="STDC_14_11"/>
-<connect gate="JTAG/SWD" pin="JRCLK" pad="STDC_14_9"/>
-<connect gate="JTAG/SWD" pin="NC@1" pad="STDC_14_1"/>
-<connect gate="JTAG/SWD" pin="NC@2" pad="STDC_14_2"/>
-<connect gate="JTAG/SWD" pin="TCK/SWCLK" pad="STDC_14_6"/>
-<connect gate="JTAG/SWD" pin="TDI" pad="STDC_14_10"/>
-<connect gate="JTAG/SWD" pin="TDO/SWO" pad="STDC_14_8"/>
-<connect gate="JTAG/SWD" pin="TMS/SWDIO" pad="STDC_14_4"/>
-<connect gate="JTAG/SWD" pin="T_VCC" pad="STDC_14_3"/>
-<connect gate="JTAG/SWD" pin="VCP_RX" pad="STDC_14_13"/>
-<connect gate="JTAG/SWD" pin="VCP_TX" pad="STDC_14_14"/>
-<connect gate="SPI" pin="!SS" pad="SPI_1"/>
-<connect gate="SPI" pin="GND" pad="SPI_9"/>
-<connect gate="SPI" pin="GPIO0" pad="SPI_2"/>
-<connect gate="SPI" pin="GPIO1" pad="SPI_4"/>
-<connect gate="SPI" pin="GPIO2" pad="SPI_6"/>
-<connect gate="SPI" pin="GPIO3" pad="SPI_8"/>
-<connect gate="SPI" pin="MISO" pad="SPI_5"/>
-<connect gate="SPI" pin="MOSI" pad="SPI_3"/>
-<connect gate="SPI" pin="NC" pad="SPI_10"/>
-<connect gate="SPI" pin="SCK" pad="SPI_7"/>
-<connect gate="UART/CAN/I2C" pin="CAN_RX" pad="UART_6"/>
-<connect gate="UART/CAN/I2C" pin="CAN_TX" pad="UART_4"/>
-<connect gate="UART/CAN/I2C" pin="GND" pad="UART_9"/>
-<connect gate="UART/CAN/I2C" pin="I2C_SCL" pad="UART_8"/>
-<connect gate="UART/CAN/I2C" pin="I2C_SDA" pad="UART_2"/>
-<connect gate="UART/CAN/I2C" pin="NC" pad="UART_10"/>
-<connect gate="UART/CAN/I2C" pin="UART_CTS" pad="UART_1"/>
-<connect gate="UART/CAN/I2C" pin="UART_RTS" pad="UART_7"/>
-<connect gate="UART/CAN/I2C" pin="UART_RX" pad="UART_5"/>
-<connect gate="UART/CAN/I2C" pin="UART_TX" pad="UART_3"/>
+<connect gate="_JTAG/SWD" pin="!RST" pad="STDC_14_12"/>
+<connect gate="_JTAG/SWD" pin="GND@1" pad="STDC_14_5"/>
+<connect gate="_JTAG/SWD" pin="GND@2" pad="STDC_14_7"/>
+<connect gate="_JTAG/SWD" pin="GND_DET" pad="STDC_14_11"/>
+<connect gate="_JTAG/SWD" pin="JRCLK" pad="STDC_14_9"/>
+<connect gate="_JTAG/SWD" pin="NC@1" pad="STDC_14_1"/>
+<connect gate="_JTAG/SWD" pin="NC@2" pad="STDC_14_2"/>
+<connect gate="_JTAG/SWD" pin="TCK/SWCLK" pad="STDC_14_6"/>
+<connect gate="_JTAG/SWD" pin="TDI" pad="STDC_14_10"/>
+<connect gate="_JTAG/SWD" pin="TDO/SWO" pad="STDC_14_8"/>
+<connect gate="_JTAG/SWD" pin="TMS/SWDIO" pad="STDC_14_4"/>
+<connect gate="_JTAG/SWD" pin="T_VCC" pad="STDC_14_3"/>
+<connect gate="_JTAG/SWD" pin="VCP_RX" pad="STDC_14_13"/>
+<connect gate="_JTAG/SWD" pin="VCP_TX" pad="STDC_14_14"/>
+<connect gate="_SPI_GPIO" pin="!SS" pad="SPI_1"/>
+<connect gate="_SPI_GPIO" pin="GND" pad="SPI_9"/>
+<connect gate="_SPI_GPIO" pin="GPIO0" pad="SPI_2"/>
+<connect gate="_SPI_GPIO" pin="GPIO1" pad="SPI_4"/>
+<connect gate="_SPI_GPIO" pin="GPIO2" pad="SPI_6"/>
+<connect gate="_SPI_GPIO" pin="GPIO3" pad="SPI_8"/>
+<connect gate="_SPI_GPIO" pin="MISO" pad="SPI_5"/>
+<connect gate="_SPI_GPIO" pin="MOSI" pad="SPI_3"/>
+<connect gate="_SPI_GPIO" pin="NC" pad="SPI_10"/>
+<connect gate="_SPI_GPIO" pin="SCK" pad="SPI_7"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_RX" pad="UART_6"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_TX" pad="UART_4"/>
+<connect gate="_UART_CAN_I2C" pin="GND" pad="UART_9"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SCL" pad="UART_8"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SDA" pad="UART_2"/>
+<connect gate="_UART_CAN_I2C" pin="NC" pad="UART_10"/>
+<connect gate="_UART_CAN_I2C" pin="UART_CTS" pad="UART_1"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RTS" pad="UART_7"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RX" pad="UART_5"/>
+<connect gate="_UART_CAN_I2C" pin="UART_TX" pad="UART_3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STLINK_V3_HAT_SWD/JTAG_MINIMAL" prefix="CON">
+<gates>
+<gate name="_JTAG/SWD" symbol="STDC_14(JTAG/SWD)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="STLINKV3_HAT_JTAG_MINIMAL">
+<connects>
+<connect gate="_JTAG/SWD" pin="!RST" pad="STDC_14_12"/>
+<connect gate="_JTAG/SWD" pin="GND@1" pad="STDC_14_5"/>
+<connect gate="_JTAG/SWD" pin="GND@2" pad="STDC_14_7"/>
+<connect gate="_JTAG/SWD" pin="GND_DET" pad="STDC_14_11"/>
+<connect gate="_JTAG/SWD" pin="JRCLK" pad="STDC_14_9"/>
+<connect gate="_JTAG/SWD" pin="NC@1" pad="STDC_14_1"/>
+<connect gate="_JTAG/SWD" pin="NC@2" pad="STDC_14_2"/>
+<connect gate="_JTAG/SWD" pin="TCK/SWCLK" pad="STDC_14_6"/>
+<connect gate="_JTAG/SWD" pin="TDI" pad="STDC_14_10"/>
+<connect gate="_JTAG/SWD" pin="TDO/SWO" pad="STDC_14_8"/>
+<connect gate="_JTAG/SWD" pin="TMS/SWDIO" pad="STDC_14_4"/>
+<connect gate="_JTAG/SWD" pin="T_VCC" pad="STDC_14_3"/>
+<connect gate="_JTAG/SWD" pin="VCP_RX" pad="STDC_14_13"/>
+<connect gate="_JTAG/SWD" pin="VCP_TX" pad="STDC_14_14"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STLINK_V3_HAT_BRIDGE_AND_UART_MINIMAL" prefix="CON">
+<gates>
+<gate name="_SPI_GPIO" symbol="SPI" x="0" y="17.78"/>
+<gate name="_UART_CAN_I2C" symbol="UART" x="0" y="-15.24"/>
+</gates>
+<devices>
+<device name="" package="STLINKV3_HAT_BRIDGE_MINIMAL">
+<connects>
+<connect gate="_SPI_GPIO" pin="!SS" pad="SPI_1"/>
+<connect gate="_SPI_GPIO" pin="GND" pad="SPI_9"/>
+<connect gate="_SPI_GPIO" pin="GPIO0" pad="SPI_2"/>
+<connect gate="_SPI_GPIO" pin="GPIO1" pad="SPI_4"/>
+<connect gate="_SPI_GPIO" pin="GPIO2" pad="SPI_6"/>
+<connect gate="_SPI_GPIO" pin="GPIO3" pad="SPI_8"/>
+<connect gate="_SPI_GPIO" pin="MISO" pad="SPI_5"/>
+<connect gate="_SPI_GPIO" pin="MOSI" pad="SPI_3"/>
+<connect gate="_SPI_GPIO" pin="NC" pad="SPI_10"/>
+<connect gate="_SPI_GPIO" pin="SCK" pad="SPI_7"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_RX" pad="UART_6"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_TX" pad="UART_4"/>
+<connect gate="_UART_CAN_I2C" pin="GND" pad="UART_9"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SCL" pad="UART_8"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SDA" pad="UART_2"/>
+<connect gate="_UART_CAN_I2C" pin="NC" pad="UART_10"/>
+<connect gate="_UART_CAN_I2C" pin="UART_CTS" pad="UART_1"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RTS" pad="UART_7"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RX" pad="UART_5"/>
+<connect gate="_UART_CAN_I2C" pin="UART_TX" pad="UART_3"/>
 </connects>
 <technologies>
 <technology name=""/>
