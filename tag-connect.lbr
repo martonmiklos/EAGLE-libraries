@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -271,6 +271,32 @@ This setting can be found in the board layout editor under the Edit menu.  Selec
 <vertex x="1.27" y="0.2413"/>
 </polygon>
 </package>
+<package name="RJ12">
+<description>&lt;B&gt;RJ12, RJ14, RJ25&lt;/B&gt;
+&lt;P&gt;RJ12, RJ14 and RJ22 jacks side mounted
+http://www.tycoelectronics.com</description>
+<wire x1="8.255" y1="6.985" x2="8.255" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-6.985" x2="-10.795" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="-6.985" x2="-10.795" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="6.985" x2="7.62" y2="6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="8.255" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="3.175" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="3.175" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="3.175" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
+<pad name="2" x="-6.35" y="-1.905" drill="0.8"/>
+<pad name="4" x="-6.35" y="0.635" drill="0.8"/>
+<pad name="5" x="-8.89" y="1.905" drill="0.8"/>
+<pad name="3" x="-8.89" y="-0.635" drill="0.8"/>
+<pad name="1" x="-8.89" y="-3.175" drill="0.8"/>
+<pad name="6" x="-6.35" y="3.175" drill="0.8"/>
+<text x="-10.16" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-10.16" y="6.985" size="1.27" layer="25">&gt;NAME</text>
+<hole x="0" y="-5.08" drill="3.25"/>
+<hole x="0" y="5.08" drill="3.25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ICSP">
@@ -499,6 +525,27 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <connect gate="G$1" pin="SWDIO/TMS" pad="2"/>
 <connect gate="G$1" pin="SWO/TDO" pad="6"/>
 <connect gate="G$1" pin="VCC" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC2030-MCP-SWD" prefix="CON">
+<description>This RJ12 device is intended to be used at the programmer side with a TC2030-MCP cable for connecting to SWD targets. (Just because the MCP variant is cheaper and easier to acquire).</description>
+<gates>
+<gate name="G$1" symbol="SWD" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="RJ12">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="4"/>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="SWCLK/TCK" pad="3"/>
+<connect gate="G$1" pin="SWDIO/TMS" pad="5"/>
+<connect gate="G$1" pin="SWO/TDO" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
