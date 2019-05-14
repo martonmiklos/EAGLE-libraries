@@ -73,3 +73,4 @@ Converted (and polished) from the Kicad libraries here: https://github.com/Libre
 
 ## diodes.lbr
 Added 2BZX84C* (dual zener in SOT23 package)
+Added ZMM* zener diode series (single Zener in Minimelf package)
