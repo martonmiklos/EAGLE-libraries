@@ -70,3 +70,6 @@ http://www.tag-connect.com/tag-connect-downloads
  
 ## BQ76920.lbr - Untested
 Converted (and polished) from the Kicad libraries here: https://github.com/LibreSolar/BMS-5s
+
+## diodes.lbr
+Added 2BZX84C* (dual zener in SOT23 package)
