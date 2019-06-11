@@ -70,3 +70,11 @@ http://www.tag-connect.com/tag-connect-downloads
  
 ## BQ76920.lbr - Untested
 Converted (and polished) from the Kicad libraries here: https://github.com/LibreSolar/BMS-5s
+
+## zettler_A850 - Untested
+Library for Zettler A850 bistable relay
+
+## phoenix_contact_ZFKKDS_1,5-5,08.lbr
+Library for Phoenix Contact ZFKKDS 1,5-5.08 terminal block (at the moment only 36 pin variant exists)
+
+https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1704402&library=huhu&tab=1
