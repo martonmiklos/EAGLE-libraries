@@ -78,3 +78,8 @@ Library for Zettler A850 bistable relay
 Library for Phoenix Contact ZFKKDS 1,5-5.08 terminal block (at the moment only 36 pin variant exists)
 
 https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1704402&library=huhu&tab=1
+
+## diodes.lbr
+Added 2BZX84C* (dual zener in SOT23 package)
+Added ZMM* zener diode series (single Zener in Minimelf package)
+
