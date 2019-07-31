@@ -62,6 +62,7 @@ Library for the Littlefuse SRV05 TVS diode array
 
 ## stlinkv3.lbr - Untested
 Hat component for StLink V3 (MB1440 replacement).
+Symbol and footprint starting point for STLinkV3MOD
 
 ## tag-connect.lbr - Untested
 Extended version of the libraries found here:
@@ -71,6 +72,17 @@ http://www.tag-connect.com/tag-connect-downloads
 ## BQ76920.lbr - Untested
 Converted (and polished) from the Kicad libraries here: https://github.com/LibreSolar/BMS-5s
 
+## zettler_A850 - Untested
+Library for Zettler A850 bistable relay
+
+## phoenix_contact_ZFKKDS_1,5-5,08.lbr
+Library for Phoenix Contact ZFKKDS 1,5-5.08 terminal block (at the moment only 36 pin variant exists)
+
+https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=1704402&library=huhu&tab=1
+
 ## diodes.lbr
-Added 2BZX84C* (dual zener in SOT23 package)
-Added ZMM* zener diode series (single Zener in Minimelf package)
+2BZX84C* (dual zener in SOT23 package)
+ZMM* zener diode series (single Zener in Minimelf package)
+
+## AL8860.lbr
+AL8860 LED driver only in SOT23-5 package (yet).

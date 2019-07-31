@@ -11732,43 +11732,637 @@ Source: &lt;a href="http://www.onsemi.com/pub_link/Collateral/SMF5.0AT1-D.PDF"&g
 </device>
 </devices>
 </deviceset>
-<deviceset name="ZMM2.4" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 2.4V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM2.7" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 2.7V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM3.0" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 3.0V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM3.3" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 3.3V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM3.6" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 3.6V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM3.9" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 3.9V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM4.3" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 4.3V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM4.7" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 4.7V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM5.1" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 5.1V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM5.6" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 5.6V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM6.2" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 6.2V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM6.8" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 6.8V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM7.5" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 7.5V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM8.2" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 8.2V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM9.1" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 9.1V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM10" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 10V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM11" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 11V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM12" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 12V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM13" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 13V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM15" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 15V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM16" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 16V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM18" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 18V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM20" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 20V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM22" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 22V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM24" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 24V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM27" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 27V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM30" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 30V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM33" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 33V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM36" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 36V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM39" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 39V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM43" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 43V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM47" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 47V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM51" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 51V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM56" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 56V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM62" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 62V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM68" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 68V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
-<deviceset name="ZMM75" prefix="D"><description>Zener diode in Minimelf package.Zener voltage: 75V</description><gates><gate name="G$1" symbol="ZD" x="0" y="0"/></gates><devices><device name="" package="MINIMELF"><connects><connect gate="G$1" pin="A" pad="A"/><connect gate="G$1" pin="C" pad="C"/></connects><technologies><technology name=""/></technologies></device></devices></deviceset>
+<deviceset name="ZMM2.4" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 2.4V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM2.7" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 2.7V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM3.0" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 3.0V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM3.3" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 3.3V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM3.6" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 3.6V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM3.9" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 3.9V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM4.3" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 4.3V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_TME" value="ZMM4.3-DIO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM4.7" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 4.7V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM5.1" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 5.1V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM5.6" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 5.6V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM6.2" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 6.2V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM6.8" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 6.8V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM7.5" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 7.5V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM8.2" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 8.2V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM9.1" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 9.1V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM10" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 10V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM11" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 11V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM12" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 12V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM13" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 13V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM15" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 15V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM16" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 16V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM18" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 18V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM20" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 20V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM22" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 22V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM24" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 24V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM27" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 27V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM30" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 30V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM33" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 33V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM36" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 36V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM39" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 39V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM43" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 43V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM47" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 47V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM51" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 51V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM56" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 56V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM62" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 62V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM68" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 68V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ZMM75" prefix="D">
+<description>Zener diode in Minimelf package.Zener voltage: 75V</description>
+<gates>
+<gate name="G$1" symbol="ZD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MINIMELF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
