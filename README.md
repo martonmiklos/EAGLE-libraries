@@ -84,6 +84,9 @@ https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=170440
 2BZX84C* (dual zener in SOT23 package)
 ZMM* zener diode series (single Zener in Minimelf package)
 
+## supply1.lbr
+Added VUSB, TARGET_VCC and another useful power taps. Rotate >VALUE texts to be centered above the taps.
+
 ## AL8860.lbr
 AL8860 LED driver only in SOT23-5 package (yet).
 
