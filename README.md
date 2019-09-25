@@ -86,3 +86,6 @@ ZMM* zener diode series (single Zener in Minimelf package)
 
 ## AL8860.lbr
 AL8860 LED driver only in SOT23-5 package (yet).
+
+## ninigi_NXW-xxK.lbr
+Library for the Ninigi NXW series 2 mm pitch connectors (JST compatible)
