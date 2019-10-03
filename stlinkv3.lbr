@@ -155,6 +155,9 @@ TME order codes:&lt;br&gt;
 <pad name="STDC_14_2" x="-27.315" y="3.81" drill="0.65" rot="R90"/>
 <wire x1="4.28" y1="24.95" x2="-28.41" y2="24.95" width="0" layer="20"/>
 <wire x1="4.28" y1="24.95" x2="4.28" y2="-24.95" width="0" layer="20"/>
+<wire x1="-35.56" y1="12.25" x2="-35.56" y2="-12.25" width="0.127" layer="51"/>
+<wire x1="-35.56" y1="-12.25" x2="-34.29" y2="-12.25" width="0.127" layer="51"/>
+<wire x1="-35.56" y1="12.25" x2="-34.29" y2="12.25" width="0.127" layer="51"/>
 </package>
 <package name="STLINKV3_HAT_BRIDGE_MINIMAL">
 <description>Footprint for creating hat like board to the StLink V3 with through hole 1.27 female headers.&lt;br&gt;
