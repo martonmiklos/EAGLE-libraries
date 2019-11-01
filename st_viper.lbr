@@ -132,7 +132,31 @@
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="OC_TME" value="VIPER012HS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VIPER012LS" prefix="U">
+<gates>
+<gate name="G$1" symbol="VIPER012" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOIC100P600X175-10N">
+<connects>
+<connect gate="G$1" pin="COMP" pad="5"/>
+<connect gate="G$1" pin="DIS" pad="3"/>
+<connect gate="G$1" pin="DRAIN" pad="6 7 8 9 10"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="OC_TME" value="VIPER012LS" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>

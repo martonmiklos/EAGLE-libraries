@@ -102,3 +102,11 @@ Library for the Ninigi NXW series 2 mm pitch connectors (JST compatible)
 Library for the ST ACS110  Overvoltage protected AC switch both SOT-223 and DIL-8 package
 
 https://www.st.com/en/thyristors-scr-and-ac-switches/acs110.html#
+
+# st_viper.lbr - Untested
+Library for the ST's Viper series AC/DC converters
+Only ST VIPER012HS atm.
+
+# ferrocore.lbr - Untested
+Library for Ferrocore SMD coils.
+At the moment only contains the DE1207 series (12x12x8mm package)
