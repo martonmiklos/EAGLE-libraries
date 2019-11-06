@@ -110,3 +110,7 @@ Only ST VIPER012HS atm.
 # ferrocore.lbr - Untested
 Library for Ferrocore SMD coils.
 At the moment only contains the DE1207 series (12x12x8mm package)
+
+# jtag.lbr - Various JTAG/SWD connectors - Untested
+90° 20 pin ARM JTAG connector for devices side
+0.5mm raster STLinkV3 JTAG+VCP connector 
