@@ -113,3 +113,7 @@ At the moment only contains the DE1207 series (12x12x8mm package)
 
 ## con-ptr-stlz1550.lbr - Tested
 Library for STLZ 1550 series connectors
+
+# jtag.lbr - Various JTAG/SWD connectors - Untested
+90° 20 pin ARM JTAG connector for devices side
+0.5mm raster STLinkV3 JTAG+VCP connector 
