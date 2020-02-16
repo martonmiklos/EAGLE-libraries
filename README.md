@@ -110,3 +110,6 @@ Only ST VIPER012HS atm.
 # ferrocore.lbr - Untested
 Library for Ferrocore SMD coils.
 At the moment only contains the DE1207 series (12x12x8mm package)
+
+## con-ptr-stlz1550.lbr - Tested
+Library for STLZ 1550 series connectors
