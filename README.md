@@ -90,7 +90,7 @@ https://www.phoenixcontact.com/online/portal/us?uri=pxc-oc-itemdetail:pid=170440
 ZMM* zener diode series (single Zener in Minimelf package)
 
 ## supply1.lbr
-Added VUSB, TARGET_VCC and another useful power taps. Rotate >VALUE texts to be centered above the taps.
+Added VUSB, TARGET_VCC and another useful power taps. Rotated >VALUE texts to be centered above the taps.
 
 ## AL8860.lbr - Untested
 AL8860 LED driver only in SOT23-5 package (yet).
@@ -102,3 +102,21 @@ Library for the Ninigi NXW series 2 mm pitch connectors (JST compatible)
 Library for the ST ACS110  Overvoltage protected AC switch both SOT-223 and DIL-8 package
 
 https://www.st.com/en/thyristors-scr-and-ac-switches/acs110.html#
+
+# st_viper.lbr - Untested
+Library for the ST's Viper series AC/DC converters
+Only ST VIPER012HS atm.
+
+# ferrocore.lbr - Untested
+Library for Ferrocore SMD coils.
+At the moment only contains the DE1207 series (12x12x8mm package)
+
+## con-ptr-stlz1550.lbr - Tested
+Library for STLZ 1550 series connectors
+
+# jtag.lbr - Various JTAG/SWD connectors - Untested
+90° 20 pin ARM JTAG connector for devices side
+0.5mm raster STLinkV3 JTAG+VCP connector 
+
+## nucleo-F303K8, nucleo-G431KB - Untested
+Library for creating shields for various ST Nucleo boards
