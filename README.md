@@ -118,5 +118,5 @@ Library for STLZ 1550 series connectors
 90° 20 pin ARM JTAG connector for devices side
 0.5mm raster STLinkV3 JTAG+VCP connector 
 
-## nucleo-F303K8, nucleo-G431KB - Untested
+## nucleo-F303K8, nucleo-G431KB, nucleo-G431RB - Untested
 Library for creating shields for various ST Nucleo boards
