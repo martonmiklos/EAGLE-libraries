@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;STM32 Nucleo-32 development board&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="DIPS1524W66P254L5029H1500Q30N">
+<description>&lt;b&gt;arduino-nano&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-7.62" y="17.78" drill="1.15" diameter="1.725" shape="square"/>
+<pad name="2" x="-7.62" y="15.24" drill="1.15" diameter="1.725"/>
+<pad name="3" x="-7.62" y="12.7" drill="1.15" diameter="1.725"/>
+<pad name="4" x="-7.62" y="10.16" drill="1.15" diameter="1.725"/>
+<pad name="5" x="-7.62" y="7.62" drill="1.15" diameter="1.725"/>
+<pad name="6" x="-7.62" y="5.08" drill="1.15" diameter="1.725"/>
+<pad name="7" x="-7.62" y="2.54" drill="1.15" diameter="1.725"/>
+<pad name="8" x="-7.62" y="0" drill="1.15" diameter="1.725"/>
+<pad name="9" x="-7.62" y="-2.54" drill="1.15" diameter="1.725"/>
+<pad name="10" x="-7.62" y="-5.08" drill="1.15" diameter="1.725"/>
+<pad name="11" x="-7.62" y="-7.62" drill="1.15" diameter="1.725"/>
+<pad name="12" x="-7.62" y="-10.16" drill="1.15" diameter="1.725"/>
+<pad name="13" x="-7.62" y="-12.7" drill="1.15" diameter="1.725"/>
+<pad name="14" x="-7.62" y="-15.24" drill="1.15" diameter="1.725"/>
+<pad name="15" x="-7.62" y="-17.78" drill="1.15" diameter="1.725"/>
+<pad name="16" x="7.62" y="-17.78" drill="1.15" diameter="1.725"/>
+<pad name="17" x="7.62" y="-15.24" drill="1.15" diameter="1.725"/>
+<pad name="18" x="7.62" y="-12.7" drill="1.15" diameter="1.725"/>
+<pad name="19" x="7.62" y="-10.16" drill="1.15" diameter="1.725"/>
+<pad name="20" x="7.62" y="-7.62" drill="1.15" diameter="1.725"/>
+<pad name="21" x="7.62" y="-5.08" drill="1.15" diameter="1.725"/>
+<pad name="22" x="7.62" y="-2.54" drill="1.15" diameter="1.725"/>
+<pad name="23" x="7.62" y="0" drill="1.15" diameter="1.725"/>
+<pad name="24" x="7.62" y="2.54" drill="1.15" diameter="1.725"/>
+<pad name="25" x="7.62" y="5.08" drill="1.15" diameter="1.725"/>
+<pad name="26" x="7.62" y="7.62" drill="1.15" diameter="1.725"/>
+<pad name="27" x="7.62" y="10.16" drill="1.15" diameter="1.725"/>
+<pad name="28" x="7.62" y="12.7" drill="1.15" diameter="1.725"/>
+<pad name="29" x="7.62" y="15.24" drill="1.15" diameter="1.725"/>
+<pad name="30" x="7.62" y="17.78" drill="1.15" diameter="1.725" shape="square"/>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-9.52" y1="25.395" x2="9.52" y2="25.395" width="0.05" layer="51"/>
+<wire x1="9.52" y1="25.395" x2="9.52" y2="-25.395" width="0.05" layer="51"/>
+<wire x1="9.52" y1="-25.395" x2="-9.52" y2="-25.395" width="0.05" layer="51"/>
+<wire x1="-9.52" y1="-25.395" x2="-9.52" y2="25.395" width="0.05" layer="51"/>
+<wire x1="-9.27" y1="25.145" x2="9.27" y2="25.145" width="0.1" layer="51"/>
+<wire x1="9.27" y1="25.145" x2="9.27" y2="-25.145" width="0.1" layer="51"/>
+<wire x1="9.27" y1="-25.145" x2="-9.27" y2="-25.145" width="0.1" layer="51"/>
+<wire x1="-9.27" y1="-25.145" x2="-9.27" y2="25.145" width="0.1" layer="51"/>
+<wire x1="-9.27" y1="23.875" x2="-8" y2="25.145" width="0.1" layer="51"/>
+<wire x1="-3.81" y1="25.4" x2="-3.81" y2="20.955" width="0.127" layer="51"/>
+<wire x1="-3.81" y1="20.955" x2="3.81" y2="20.955" width="0.127" layer="51"/>
+<wire x1="3.81" y1="20.955" x2="3.81" y2="25.4" width="0.127" layer="51"/>
+<wire x1="3.81" y1="25.4" x2="-3.81" y2="25.4" width="0.127" layer="51"/>
+<text x="0" y="22.86" size="1.27" layer="51" font="vector" align="bottom-center">USB</text>
+</package>
+<package name="DIPS1524W66P254L5029H1500Q30N_WO_SILKSCREEN">
+<description>&lt;b&gt;arduino-nano&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-7.62" y="17.78" drill="1.15" diameter="1.725" shape="square"/>
+<pad name="2" x="-7.62" y="15.24" drill="1.15" diameter="1.725"/>
+<pad name="3" x="-7.62" y="12.7" drill="1.15" diameter="1.725"/>
+<pad name="4" x="-7.62" y="10.16" drill="1.15" diameter="1.725"/>
+<pad name="5" x="-7.62" y="7.62" drill="1.15" diameter="1.725"/>
+<pad name="6" x="-7.62" y="5.08" drill="1.15" diameter="1.725"/>
+<pad name="7" x="-7.62" y="2.54" drill="1.15" diameter="1.725"/>
+<pad name="8" x="-7.62" y="0" drill="1.15" diameter="1.725"/>
+<pad name="9" x="-7.62" y="-2.54" drill="1.15" diameter="1.725"/>
+<pad name="10" x="-7.62" y="-5.08" drill="1.15" diameter="1.725"/>
+<pad name="11" x="-7.62" y="-7.62" drill="1.15" diameter="1.725"/>
+<pad name="12" x="-7.62" y="-10.16" drill="1.15" diameter="1.725"/>
+<pad name="13" x="-7.62" y="-12.7" drill="1.15" diameter="1.725"/>
+<pad name="14" x="-7.62" y="-15.24" drill="1.15" diameter="1.725"/>
+<pad name="15" x="-7.62" y="-17.78" drill="1.15" diameter="1.725"/>
+<pad name="16" x="7.62" y="-17.78" drill="1.15" diameter="1.725"/>
+<pad name="17" x="7.62" y="-15.24" drill="1.15" diameter="1.725"/>
+<pad name="18" x="7.62" y="-12.7" drill="1.15" diameter="1.725"/>
+<pad name="19" x="7.62" y="-10.16" drill="1.15" diameter="1.725"/>
+<pad name="20" x="7.62" y="-7.62" drill="1.15" diameter="1.725"/>
+<pad name="21" x="7.62" y="-5.08" drill="1.15" diameter="1.725"/>
+<pad name="22" x="7.62" y="-2.54" drill="1.15" diameter="1.725"/>
+<pad name="23" x="7.62" y="0" drill="1.15" diameter="1.725"/>
+<pad name="24" x="7.62" y="2.54" drill="1.15" diameter="1.725"/>
+<pad name="25" x="7.62" y="5.08" drill="1.15" diameter="1.725"/>
+<pad name="26" x="7.62" y="7.62" drill="1.15" diameter="1.725"/>
+<pad name="27" x="7.62" y="10.16" drill="1.15" diameter="1.725"/>
+<pad name="28" x="7.62" y="12.7" drill="1.15" diameter="1.725"/>
+<pad name="29" x="7.62" y="15.24" drill="1.15" diameter="1.725"/>
+<pad name="30" x="7.62" y="17.78" drill="1.15" diameter="1.725" shape="square"/>
+<text x="0" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="NUCLEO-G431KB">
+<wire x1="-17.78" y1="20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="17.78" y2="20.32" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<text x="-3.81" y="22.86" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-6.35" y="-22.86" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="PA9(D1)" x="-22.86" y="17.78" length="middle"/>
+<pin name="PA10(D0)" x="-22.86" y="15.24" length="middle"/>
+<pin name="!RST@1" x="-22.86" y="12.7" length="middle"/>
+<pin name="GND@1" x="-22.86" y="10.16" length="middle" direction="pas"/>
+<pin name="PA12(D2)" x="-22.86" y="7.62" length="middle"/>
+<pin name="PB0(D3)" x="-22.86" y="5.08" length="middle"/>
+<pin name="PB7(D4)" x="-22.86" y="2.54" length="middle"/>
+<pin name="PA15(D5)" x="-22.86" y="0" length="middle"/>
+<pin name="PB6(D6)" x="-22.86" y="-2.54" length="middle"/>
+<pin name="PF0(D7)" x="-22.86" y="-5.08" length="middle"/>
+<pin name="PF1(D8)" x="-22.86" y="-7.62" length="middle"/>
+<pin name="PA8(D9)" x="-22.86" y="-10.16" length="middle"/>
+<pin name="PA11(D10)" x="-22.86" y="-12.7" length="middle"/>
+<pin name="PB5(D11)" x="-22.86" y="-15.24" length="middle"/>
+<pin name="PB4(D12)" x="-22.86" y="-17.78" length="middle"/>
+<pin name="VIN" x="22.86" y="17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="GND@2" x="22.86" y="15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="!RST@2" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="+5V" x="22.86" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="PA2(A7)" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="PA7(A6)" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="PA6(A5)" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="PA5(A4)" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="PA4(A3)" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="PA3(A2)" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="PA1(A1)" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="PA0(A0)" x="22.86" y="-10.16" length="middle" rot="R180"/>
+<pin name="AREF" x="22.86" y="-12.7" length="middle" direction="pas" rot="R180"/>
+<pin name="+3V3" x="22.86" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="PB3(D13)" x="22.86" y="-17.78" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NUCLEO-G431KB" prefix="IC">
+<description>&lt;b&gt;STM32 Nucleo-32 development board&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/data_brief/b1/d8/13/d4/b0/b7/4b/6e/DM00214578.pdf/files/DM00214578.pdf/jcr:content/translations/en.DM00214578.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NUCLEO-G431KB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIPS1524W66P254L5029H1500Q30N">
+<connects>
+<connect gate="G$1" pin="!RST@1" pad="3"/>
+<connect gate="G$1" pin="!RST@2" pad="28"/>
+<connect gate="G$1" pin="+3V3" pad="17"/>
+<connect gate="G$1" pin="+5V" pad="27"/>
+<connect gate="G$1" pin="AREF" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="29"/>
+<connect gate="G$1" pin="PA0(A0)" pad="19"/>
+<connect gate="G$1" pin="PA1(A1)" pad="20"/>
+<connect gate="G$1" pin="PA10(D0)" pad="2"/>
+<connect gate="G$1" pin="PA11(D10)" pad="13"/>
+<connect gate="G$1" pin="PA12(D2)" pad="5"/>
+<connect gate="G$1" pin="PA15(D5)" pad="8"/>
+<connect gate="G$1" pin="PA2(A7)" pad="26"/>
+<connect gate="G$1" pin="PA3(A2)" pad="21"/>
+<connect gate="G$1" pin="PA4(A3)" pad="22"/>
+<connect gate="G$1" pin="PA5(A4)" pad="23"/>
+<connect gate="G$1" pin="PA6(A5)" pad="24"/>
+<connect gate="G$1" pin="PA7(A6)" pad="25"/>
+<connect gate="G$1" pin="PA8(D9)" pad="12"/>
+<connect gate="G$1" pin="PA9(D1)" pad="1"/>
+<connect gate="G$1" pin="PB0(D3)" pad="6"/>
+<connect gate="G$1" pin="PB3(D13)" pad="16"/>
+<connect gate="G$1" pin="PB4(D12)" pad="15"/>
+<connect gate="G$1" pin="PB5(D11)" pad="14"/>
+<connect gate="G$1" pin="PB6(D6)" pad="9"/>
+<connect gate="G$1" pin="PB7(D4)" pad="7"/>
+<connect gate="G$1" pin="PF0(D7)" pad="10"/>
+<connect gate="G$1" pin="PF1(D8)" pad="11"/>
+<connect gate="G$1" pin="VIN" pad="30"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="NUCLEO-F303K8" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/nucleo-f303k8/stmicroelectronics" constant="no"/>
+<attribute name="DESCRIPTION" value="STM32 Nucleo-32 development board" constant="no"/>
+<attribute name="HEIGHT" value="15mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NUCLEO-F303K8" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="9092862" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/9092862" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="NO_SILKSCREEN" package="DIPS1524W66P254L5029H1500Q30N_WO_SILKSCREEN">
+<connects>
+<connect gate="G$1" pin="!RST@1" pad="3"/>
+<connect gate="G$1" pin="!RST@2" pad="28"/>
+<connect gate="G$1" pin="+3V3" pad="17"/>
+<connect gate="G$1" pin="+5V" pad="27"/>
+<connect gate="G$1" pin="AREF" pad="18"/>
+<connect gate="G$1" pin="GND@1" pad="4"/>
+<connect gate="G$1" pin="GND@2" pad="29"/>
+<connect gate="G$1" pin="PA0(A0)" pad="19"/>
+<connect gate="G$1" pin="PA1(A1)" pad="20"/>
+<connect gate="G$1" pin="PA10(D0)" pad="2"/>
+<connect gate="G$1" pin="PA11(D10)" pad="13"/>
+<connect gate="G$1" pin="PA12(D2)" pad="5"/>
+<connect gate="G$1" pin="PA15(D5)" pad="8"/>
+<connect gate="G$1" pin="PA2(A7)" pad="26"/>
+<connect gate="G$1" pin="PA3(A2)" pad="21"/>
+<connect gate="G$1" pin="PA4(A3)" pad="22"/>
+<connect gate="G$1" pin="PA5(A4)" pad="23"/>
+<connect gate="G$1" pin="PA6(A5)" pad="24"/>
+<connect gate="G$1" pin="PA7(A6)" pad="25"/>
+<connect gate="G$1" pin="PA8(D9)" pad="12"/>
+<connect gate="G$1" pin="PA9(D1)" pad="1"/>
+<connect gate="G$1" pin="PB0(D3)" pad="6"/>
+<connect gate="G$1" pin="PB3(D13)" pad="16"/>
+<connect gate="G$1" pin="PB4(D12)" pad="15"/>
+<connect gate="G$1" pin="PB5(D11)" pad="14"/>
+<connect gate="G$1" pin="PB6(D6)" pad="9"/>
+<connect gate="G$1" pin="PB7(D4)" pad="7"/>
+<connect gate="G$1" pin="PF0(D7)" pad="10"/>
+<connect gate="G$1" pin="PF1(D8)" pad="11"/>
+<connect gate="G$1" pin="VIN" pad="30"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
