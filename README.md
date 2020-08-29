@@ -131,3 +131,7 @@ Schematic library for the Basler Ace series cameras (for system wiring diagrams)
 
 ## DPR60-1 - Symbol only library
 Schematic library for TDK Lambda DRP60-1 power supply (for system wiring diagrams)
+
+## MF-USMF.lbr - Untested
+Library for Bourns MF-USMF series PTCs
+
