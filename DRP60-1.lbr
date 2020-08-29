@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="8.3.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+</packages>
+<symbols>
+<symbol name="DRP60-1">
+<pin name="N" x="-5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="L" x="0" y="-22.86" length="middle" rot="R90"/>
+<pin name="PEN" x="5.08" y="-22.86" length="middle" rot="R90"/>
+<pin name="+@1" x="-5.08" y="25.4" length="middle" rot="R270"/>
+<pin name="+@2" x="-2.54" y="25.4" length="middle" rot="R270"/>
+<pin name="-@1" x="2.54" y="25.4" length="middle" rot="R270"/>
+<pin name="-@2" x="5.08" y="25.4" length="middle" rot="R270"/>
+<wire x1="-7.62" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
+<wire x1="7.62" y1="20.32" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="-7.62" y2="20.32" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.27" size="1.27" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DRP60-1" prefix="PSU_">
+<description>&lt;label for="SpecList_chkbox_4294758962"&gt;Manufacturer:&lt;/label&gt;
+&lt;input id="SpecList_0__Label" name="SpecList[0].Label" type="hidden" value="Manufacturer:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_0__LabelId" name="SpecList[0].LabelId" type="hidden" value="1000000411"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+TDK            &lt;input id="SpecList_0__Value" name="SpecList[0].Value" type="hidden" value="TDK"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_0__ValueId" name="SpecList[0].ValueId" type="hidden" value="4294758962"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Manufacturer: TDK" attrgrpname="Manufacturer" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4294758962" labelid="1000000411" name="SpecList[0].Selected" type="checkbox" value="true" valueid="4294758962"&gt;&lt;input name="SpecList[0].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[1]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_18357235"&gt;Product Category:&lt;/label&gt;
+&lt;input id="SpecList_1__Label" name="SpecList[1].Label" type="hidden" value="Product Category:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_1__LabelId" name="SpecList[1].LabelId" type="hidden" value="1000000410"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+DIN Rail Power Supplies            &lt;input id="SpecList_1__Value" name="SpecList[1].Value" type="hidden" value="DIN Rail Power Supplies"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_1__ValueId" name="SpecList[1].ValueId" type="hidden" value="18357235"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Product Category: DIN Rail Power Supplies" attrgrpname="DIN Rail Power Supplies" checked="checked" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_18357235" labelid="1000000410" name="SpecList[1].Selected" type="checkbox" value="true" valueid="18357235"&gt;&lt;input name="SpecList[1].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[2]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4292853219"&gt;Input Voltage:&lt;/label&gt;
+&lt;input id="SpecList_2__Label" name="SpecList[2].Label" type="hidden" value="Input Voltage:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_2__LabelId" name="SpecList[2].LabelId" type="hidden" value="688469"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+110 VAC, 230 VAC            &lt;input id="SpecList_2__Value" name="SpecList[2].Value" type="hidden" value="110 VAC, 230 VAC"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_2__ValueId" name="SpecList[2].ValueId" type="hidden" value="4292853219"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Input Voltage: 110 VAC, 230 VAC" attrgrpname="Input Voltage" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4292853219" labelid="688469" name="SpecList[2].Selected" type="checkbox" value="true" valueid="4292853219"&gt;&lt;input name="SpecList[2].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[3]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4288319131"&gt;Number of Outputs:&lt;/label&gt;
+&lt;input id="SpecList_3__Label" name="SpecList[3].Label" type="hidden" value="Number of Outputs:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_3__LabelId" name="SpecList[3].LabelId" type="hidden" value="688552"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+1 Output            &lt;input id="SpecList_3__Value" name="SpecList[3].Value" type="hidden" value="1 Output"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_3__ValueId" name="SpecList[3].ValueId" type="hidden" value="4288319131"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Number of Outputs: 1 Output" attrgrpname="Number of Outputs" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4288319131" labelid="688552" name="SpecList[3].Selected" type="checkbox" value="true" valueid="4288319131"&gt;&lt;input name="SpecList[3].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[4]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4289422068"&gt;Output Voltage-Channel 1:&lt;/label&gt;
+&lt;input id="SpecList_4__Label" name="SpecList[4].Label" type="hidden" value="Output Voltage-Channel 1:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_4__LabelId" name="SpecList[4].LabelId" type="hidden" value="1000000940"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+24 VDC            &lt;input id="SpecList_4__Value" name="SpecList[4].Value" type="hidden" value="24 VDC"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_4__ValueId" name="SpecList[4].ValueId" type="hidden" value="4289422068"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Output Voltage-Channel 1: 24 VDC" attrgrpname="Output Voltage-Channel 1" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4289422068" labelid="1000000940" name="SpecList[4].Selected" type="checkbox" value="true" valueid="4289422068"&gt;&lt;input name="SpecList[4].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[5]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4289422108"&gt;Output Current-Channel 1:&lt;/label&gt;
+&lt;input id="SpecList_5__Label" name="SpecList[5].Label" type="hidden" value="Output Current-Channel 1:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_5__LabelId" name="SpecList[5].LabelId" type="hidden" value="1000000941"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+2.5 A            &lt;input id="SpecList_5__Value" name="SpecList[5].Value" type="hidden" value="2.5 A"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_5__ValueId" name="SpecList[5].ValueId" type="hidden" value="4289422108"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Output Current-Channel 1: 2.5 A" attrgrpname="Output Current-Channel 1" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4289422108" labelid="1000000941" name="SpecList[5].Selected" type="checkbox" value="true" valueid="4289422108"&gt;&lt;input name="SpecList[5].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[6]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4294014960"&gt;Length:&lt;/label&gt;
+&lt;input id="SpecList_6__Label" name="SpecList[6].Label" type="hidden" value="Length:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_6__LabelId" name="SpecList[6].LabelId" type="hidden" value="688490"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+3.8 in            &lt;input id="SpecList_6__Value" name="SpecList[6].Value" type="hidden" value="3.8 in"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_6__ValueId" name="SpecList[6].ValueId" type="hidden" value="4294014960"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Length: 3.8 in" attrgrpname="Length" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4294014960" labelid="688490" name="SpecList[6].Selected" type="checkbox" value="true" valueid="4294014960"&gt;&lt;input name="SpecList[6].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[7]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4292982115"&gt;Width:&lt;/label&gt;
+&lt;input id="SpecList_7__Label" name="SpecList[7].Label" type="hidden" value="Width:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_7__LabelId" name="SpecList[7].LabelId" type="hidden" value="688783"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+2.36 in            &lt;input id="SpecList_7__Value" name="SpecList[7].Value" type="hidden" value="2.36 in"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_7__ValueId" name="SpecList[7].ValueId" type="hidden" value="4292982115"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Width: 2.36 in" attrgrpname="Width" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4292982115" labelid="688783" name="SpecList[7].Selected" type="checkbox" value="true" valueid="4292982115"&gt;&lt;input name="SpecList[7].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[8]"&gt;
+        &lt;td class="attr-col"&gt;
+                    &lt;label for="SpecList_chkbox_4292557853"&gt;Height:&lt;/label&gt;
+&lt;input id="SpecList_8__Label" name="SpecList[8].Label" type="hidden" value="Height:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_8__LabelId" name="SpecList[8].LabelId" type="hidden" value="688449"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+1.36 in            &lt;input id="SpecList_8__Value" name="SpecList[8].Value" type="hidden" value="1.36 in"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_8__ValueId" name="SpecList[8].ValueId" type="hidden" value="4292557853"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+&lt;input aria-label="Height: 1.36 in" attrgrpname="Height" class="find-similar" data-val="true" data-val-required="The Selected field is required." id="SpecList_chkbox_4292557853" labelid="688449" name="SpecList[8].Selected" type="checkbox" value="true" valueid="4292557853"&gt;&lt;input name="SpecList[8].Selected" type="hidden" value="false"&gt;        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[9]"&gt;
+        &lt;td class="attr-col"&gt;
+Brand:&lt;input id="SpecList_9__Label" name="SpecList[9].Label" type="hidden" value="Brand:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_9__LabelId" name="SpecList[9].LabelId" type="hidden" value="1447464"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+TDK            &lt;input id="SpecList_9__Value" name="SpecList[9].Value" type="hidden" value="TDK"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_9__ValueId" name="SpecList[9].ValueId" type="hidden" value="4294963871"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[10]"&gt;
+        &lt;td class="attr-col"&gt;
+Product Type:&lt;input id="SpecList_10__Label" name="SpecList[10].Label" type="hidden" value="Product Type:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_10__LabelId" name="SpecList[10].LabelId" type="hidden" value="1000000617"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+DIN Rail Power Supplies            &lt;input id="SpecList_10__Value" name="SpecList[10].Value" type="hidden" value="DIN Rail Power Supplies"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_10__ValueId" name="SpecList[10].ValueId" type="hidden" value="4248021428"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;
+        &lt;/td&gt;
+    &lt;/tr&gt;
+
+
+    &lt;tr id="pdp_specs_SpecList[11]"&gt;
+        &lt;td class="attr-col"&gt;
+Subcategory:&lt;input id="SpecList_11__Label" name="SpecList[11].Label" type="hidden" value="Subcategory:"&gt;            &lt;input data-val="true" data-val-number="The field LabelId must be a number." data-val-required="The LabelId field is required." id="SpecList_11__LabelId" name="SpecList[11].LabelId" type="hidden" value="1000001147"&gt;        &lt;/td&gt;
+        &lt;td class="attr-value-col"&gt;
+AC-DC Power Supply            &lt;input id="SpecList_11__Value" name="SpecList[11].Value" type="hidden" value="AC-DC Power Supply"&gt;&lt;input data-val="true" data-val-number="The field ValueId must be a number." data-val-required="The ValueId field is required." id="SpecList_11__ValueId" name="SpecList[11].ValueId" type="hidden" value="4248536921"&gt;        &lt;/td&gt;
+        &lt;td class="text-center checkbox-col "&gt;</description>
+<gates>
+<gate name="G$1" symbol="DRP60-1" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

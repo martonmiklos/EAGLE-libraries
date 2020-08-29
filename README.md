@@ -120,3 +120,14 @@ Library for STLZ 1550 series connectors
 
 ## nucleo-F303K8, nucleo-G431KB, nucleo-G431RB - Untested
 Library for creating shields for various ST Nucleo boards
+
+## VLC-24V10-1.lbr - Symbol only library
+Schematic library for VS technology VLC series LED light controller:
+
+https://vst.co.jp/en/lighting-en/vlc-series/
+
+## basler_ace.lbr - Symbol only library
+Schematic library for the Basler Ace series cameras (for system wiring diagrams)
+
+## DPR60-1 - Symbol only library
+Schematic library for TDK Lambda DRP60-1 power supply (for system wiring diagrams)
