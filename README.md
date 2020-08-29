@@ -120,3 +120,6 @@ Library for STLZ 1550 series connectors
 
 ## nucleo-F303K8, nucleo-G431KB, nucleo-G431RB - Untested
 Library for creating shields for various ST Nucleo boards
+
+## MF-USMF.lbr - Untested
+Library for Bourns MF-USMF series PTCs
