@@ -141,3 +141,9 @@ https://github.com/chiengineer/Eagle-Libraries/blob/master/Connectors/con-molex-
 
 Changes:
 Removed P$ prefix from pad names to make the symbols look good.
+
+## NID60S24-12.lbr
+
++12V 4A DCDC converter module from Meanwell
+
+Imported from Samacsys, pimped prefix, pin directions.
