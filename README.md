@@ -135,3 +135,9 @@ Schematic library for TDK Lambda DRP60-1 power supply (for system wiring diagram
 ## MF-USMF.lbr - Untested
 Library for Bourns MF-USMF series PTCs
 
+## con-molex-micro-fit-3_0.lbr 
+Copied from here:
+https://github.com/chiengineer/Eagle-Libraries/blob/master/Connectors/con-molex-micro-fit-3_0.lbr
+
+Changes:
+Removed P$ prefix from pad names to make the symbols look good.
