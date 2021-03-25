@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -403,6 +403,57 @@ http://www.tycoelectronics.com</description>
 <vertex x="9.144" y="4.064" curve="-90"/>
 </polygon>
 </symbol>
+<symbol name="SPI">
+<wire x1="-10.16" y1="10.16" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="8.89" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="8.89" y1="-7.62" x2="8.89" y2="10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
+<circle x="5.842" y="9.144" radius="0.5679" width="0.254" layer="94"/>
+<circle x="4.826" y="3.048" radius="0.5679" width="0.254" layer="94"/>
+<circle x="6.858" y="3.048" radius="0.5679" width="0.254" layer="94"/>
+<pin name="MISO" x="-12.7" y="7.62" length="short" direction="out"/>
+<pin name="VTGS" x="-12.7" y="5.08" length="short" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-5.08" length="short" direction="pwr"/>
+<pin name="SCK" x="-12.7" y="2.54" length="short" direction="in" function="clk"/>
+<pin name="MOSI" x="-12.7" y="0" length="short" direction="in"/>
+<pin name="!RESET" x="-12.7" y="-2.54" length="short" direction="in"/>
+<polygon width="0.254" layer="94">
+<vertex x="6.096" y="7.62" curve="-90"/>
+<vertex x="6.604" y="8.128" curve="-90"/>
+<vertex x="7.112" y="7.62" curve="-90"/>
+<vertex x="6.604" y="7.112" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="4.572" y="7.62" curve="-90"/>
+<vertex x="5.08" y="8.128" curve="-90"/>
+<vertex x="5.588" y="7.62" curve="-90"/>
+<vertex x="5.08" y="7.112" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="6.096" y="6.096" curve="-90"/>
+<vertex x="6.604" y="6.604" curve="-90"/>
+<vertex x="7.112" y="6.096" curve="-90"/>
+<vertex x="6.604" y="5.588" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="4.572" y="6.096" curve="-90"/>
+<vertex x="5.08" y="6.604" curve="-90"/>
+<vertex x="5.588" y="6.096" curve="-90"/>
+<vertex x="5.08" y="5.588" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="4.572" y="4.572" curve="-90"/>
+<vertex x="5.08" y="5.08" curve="-90"/>
+<vertex x="5.588" y="4.572" curve="-90"/>
+<vertex x="5.08" y="4.064" curve="-90"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="6.096" y="4.572" curve="-90"/>
+<vertex x="6.604" y="5.08" curve="-90"/>
+<vertex x="7.112" y="4.572" curve="-90"/>
+<vertex x="6.604" y="4.064" curve="-90"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TC2030_ICSP" prefix="J" uservalue="yes">
@@ -547,6 +598,40 @@ Two variants - one "with legs" (for hands-free fit on PCB) and another "without 
 <connect gate="G$1" pin="SWDIO/TMS" pad="5"/>
 <connect gate="G$1" pin="SWO/TDO" pad="1"/>
 <connect gate="G$1" pin="VCC" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TC2030-SPI" prefix="CON">
+<description>https://www.tag-connect.com/product/tc2030-icespi-legged-cable-for-use-with-atmel-ice</description>
+<gates>
+<gate name="G$1" symbol="SPI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NL" package="TC2030-MCP-NL">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VTGS" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="LEGGED" package="TC2030-MCP">
+<connects>
+<connect gate="G$1" pin="!RESET" pad="5"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MISO" pad="1"/>
+<connect gate="G$1" pin="MOSI" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="3"/>
+<connect gate="G$1" pin="VTGS" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
