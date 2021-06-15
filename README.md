@@ -142,8 +142,14 @@ https://github.com/chiengineer/Eagle-Libraries/blob/master/Connectors/con-molex-
 Changes:
 Removed P$ prefix from pad names to make the symbols look good.
 
-## NID60S24-12.lbr
+## NID60S24-12.lbr - untested, footprint known to be bad
 
 +12V 4A DCDC converter module from Meanwell
 
-Imported from Samacsys, pimped prefix, pin directions.
+Imported from Samacsys, pimped prefix, pin directions
+
+## OTS_IC_sockets.lbr - untested, footprint known to be bad
+
+Symbol for a OTS-16 series IC sockets
+
+https://www.waveshare.com/datasheet/Test_Socket_PDF/SOP/SOP_Enplas.pdf

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.3.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -57,8 +57,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -299,6 +299,36 @@ TME order codes:&lt;br&gt;
 <pad name="STDC_14_1" x="-28.585" y="3.81" drill="0.65" rot="R90"/>
 <pad name="STDC_14_4" x="-27.315" y="2.54" drill="0.65" rot="R90"/>
 <pad name="STDC_14_2" x="-27.315" y="3.81" drill="0.65" rot="R90"/>
+</package>
+<package name="STLINKV3_HAT_BRIDGE_MINIMAL_CONTOURLESS">
+<description>Footprint for creating hat like board to the StLink V3 with through hole 1.27 female headers.&lt;br&gt;
+TME order codes:&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;2pcs DS1065-03-2X5S8BV (2x5)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<text x="-2.25" y="9.02" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.25" y="-13.14" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="CENTER" x="0" y="0" drill="3" diameter="6" shape="octagon"/>
+<pad name="SPI_6" x="16.05" y="-17.765" drill="0.65"/>
+<pad name="SPI_5" x="16.05" y="-19.035" drill="0.65"/>
+<pad name="SPI_8" x="17.32" y="-17.765" drill="0.65"/>
+<pad name="SPI_7" x="17.32" y="-19.035" drill="0.65"/>
+<pad name="SPI_10" x="18.59" y="-17.765" drill="0.65"/>
+<pad name="SPI_9" x="18.59" y="-19.035" drill="0.65"/>
+<pad name="SPI_4" x="14.78" y="-17.765" drill="0.65"/>
+<pad name="SPI_3" x="14.78" y="-19.035" drill="0.65"/>
+<pad name="SPI_2" x="13.51" y="-17.765" drill="0.65"/>
+<pad name="SPI_1" x="13.51" y="-19.035" drill="0.65" first="yes"/>
+<pad name="UART_5" x="16.05" y="19.035" drill="0.65"/>
+<pad name="UART_6" x="16.05" y="17.765" drill="0.65"/>
+<pad name="UART_3" x="17.32" y="19.035" drill="0.65"/>
+<pad name="UART_4" x="17.32" y="17.765" drill="0.65"/>
+<pad name="UART_1" x="18.59" y="19.035" drill="0.65"/>
+<pad name="UART_2" x="18.59" y="17.765" drill="0.65"/>
+<pad name="UART_7" x="14.78" y="19.035" drill="0.65"/>
+<pad name="UART_8" x="14.78" y="17.765" drill="0.65"/>
+<pad name="UART_9" x="13.51" y="19.035" drill="0.65"/>
+<pad name="UART_10" x="13.51" y="17.765" drill="0.65" first="yes"/>
 </package>
 </packages>
 <symbols>
@@ -543,6 +573,34 @@ TME order codes:&lt;br&gt;
 </gates>
 <devices>
 <device name="" package="STLINKV3_HAT_BRIDGE_MINIMAL">
+<connects>
+<connect gate="CENTER_HOLE" pin="1" pad="CENTER"/>
+<connect gate="_SPI_GPIO" pin="!SS" pad="SPI_1"/>
+<connect gate="_SPI_GPIO" pin="GND" pad="SPI_9"/>
+<connect gate="_SPI_GPIO" pin="GPIO0" pad="SPI_2"/>
+<connect gate="_SPI_GPIO" pin="GPIO1" pad="SPI_4"/>
+<connect gate="_SPI_GPIO" pin="GPIO2" pad="SPI_6"/>
+<connect gate="_SPI_GPIO" pin="GPIO3" pad="SPI_8"/>
+<connect gate="_SPI_GPIO" pin="MISO" pad="SPI_5"/>
+<connect gate="_SPI_GPIO" pin="MOSI" pad="SPI_3"/>
+<connect gate="_SPI_GPIO" pin="NC/5V" pad="SPI_10"/>
+<connect gate="_SPI_GPIO" pin="SCK" pad="SPI_7"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_RX" pad="UART_6"/>
+<connect gate="_UART_CAN_I2C" pin="CAN_TX" pad="UART_4"/>
+<connect gate="_UART_CAN_I2C" pin="GND" pad="UART_9"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SCL" pad="UART_8"/>
+<connect gate="_UART_CAN_I2C" pin="I2C_SDA" pad="UART_2"/>
+<connect gate="_UART_CAN_I2C" pin="NC" pad="UART_10"/>
+<connect gate="_UART_CAN_I2C" pin="UART_CTS" pad="UART_1"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RTS" pad="UART_7"/>
+<connect gate="_UART_CAN_I2C" pin="UART_RX" pad="UART_5"/>
+<connect gate="_UART_CAN_I2C" pin="UART_TX" pad="UART_3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="CONTOURLESS" package="STLINKV3_HAT_BRIDGE_MINIMAL_CONTOURLESS">
 <connects>
 <connect gate="CENTER_HOLE" pin="1" pad="CENTER"/>
 <connect gate="_SPI_GPIO" pin="!SS" pad="SPI_1"/>
