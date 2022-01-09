@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -154,10 +154,10 @@
 <wire x1="-19.745" y1="-2.9" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-19.745" y1="4.1" x2="-19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="19.745" y1="4.1" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-19.745" y1="6.3" x2="19.745" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="-5" x2="19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="6.3" x2="-19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="19.745" y1="6.3" x2="19.745" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="19.745" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="-6.7" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="-19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="19.745" y1="4.8" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-09">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
@@ -192,10 +192,10 @@
 <wire x1="-14.03" y1="-2.9" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-14.03" y1="4.1" x2="-14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="14.03" y1="4.1" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-14.03" y1="6.3" x2="14.03" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="-5" x2="14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="6.3" x2="-14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="14.03" y1="6.3" x2="14.03" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="14.03" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="-6.7" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="-14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="14.03" y1="4.8" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-12">
 <description>&lt;b&gt;HEADER&lt;/b&gt;</description>
@@ -217,10 +217,10 @@
 <wire x1="23.555" y1="4.1" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
 <pad name="11" x="17.145" y="0" drill="1.15" shape="long" rot="R90"/>
 <pad name="12" x="20.955" y="0" drill="1.15" shape="long" rot="R90"/>
-<wire x1="-23.555" y1="6.3" x2="23.555" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="-5" x2="23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="6.3" x2="-23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="23.555" y1="6.3" x2="23.555" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="23.555" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="-6.7" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="-23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="23.555" y1="4.8" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-12_0P1MM_OFFSET">
 <description>1st and 12th pins are off from the pitch with ±0.1 mm to secure the connector before the TH soldering.</description>
@@ -242,10 +242,10 @@
 <wire x1="23.555" y1="4.1" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
 <pad name="11" x="17.145" y="0" drill="1.15" shape="long" rot="R90"/>
 <pad name="12" x="21.055" y="0" drill="1.15" shape="long" rot="R90"/>
-<wire x1="-23.555" y1="6.3" x2="23.555" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="-5" x2="23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="6.3" x2="-23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="23.555" y1="6.3" x2="23.555" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="23.555" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="-6.7" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="-23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="23.555" y1="4.8" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-10_0P1MM_OFFSET">
 <description>1st and 10th pins are off from the pitch with ±0.1 mm to secure the connector before the TH soldering.</description>
@@ -265,10 +265,10 @@
 <wire x1="-19.745" y1="-2.9" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-19.745" y1="4.1" x2="-19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="19.745" y1="4.1" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-19.745" y1="6.3" x2="19.745" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="-5" x2="19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="6.3" x2="-19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="19.745" y1="6.3" x2="19.745" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="19.745" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="-6.7" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="-19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="19.745" y1="4.8" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-07_0P1MM_OFFSET">
 <description>1st and 7th pins are off from the pitch with ±0.1 mm to secure the connector before the TH soldering.</description>
@@ -285,10 +285,10 @@
 <wire x1="-14.03" y1="-2.9" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-14.03" y1="4.1" x2="-14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="14.03" y1="4.1" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-14.03" y1="6.3" x2="14.03" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="-5" x2="14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="6.3" x2="-14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="14.03" y1="6.3" x2="14.03" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="14.03" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="-6.7" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="-14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="14.03" y1="4.8" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-07_0P05MM_OFFSET">
 <description>1st and 7th pins are off from the pitch with ±0.05 mm to secure the connector before the TH soldering.</description>
@@ -305,10 +305,10 @@
 <wire x1="-14.03" y1="-2.9" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-14.03" y1="4.1" x2="-14.03" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="14.03" y1="4.1" x2="14.03" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-14.03" y1="6.3" x2="14.03" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="-5" x2="14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-14.03" y1="6.3" x2="-14.03" y2="-5" width="0.1524" layer="48"/>
-<wire x1="14.03" y1="6.3" x2="14.03" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="14.03" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="-6.7" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-14.03" y1="4.8" x2="-14.03" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="14.03" y1="4.8" x2="14.03" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-10_0P05MM_OFFSET">
 <description>1st and 10th pins are off from the pitch with ±0.05 mm to secure the connector before the TH soldering.</description>
@@ -328,10 +328,10 @@
 <wire x1="-19.745" y1="-2.9" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="-19.745" y1="4.1" x2="-19.745" y2="-2.9" width="0.1524" layer="21"/>
 <wire x1="19.745" y1="4.1" x2="19.745" y2="-2.9" width="0.1524" layer="21"/>
-<wire x1="-19.745" y1="6.3" x2="19.745" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="-5" x2="19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-19.745" y1="6.3" x2="-19.745" y2="-5" width="0.1524" layer="48"/>
-<wire x1="19.745" y1="6.3" x2="19.745" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="19.745" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="-6.7" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-19.745" y1="4.8" x2="-19.745" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="19.745" y1="4.8" x2="19.745" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 <package name="PAC-12_0P05MM_OFFSET">
 <description>1st and 12th pins are off from the pitch with ±0.05 mm to secure the connector before the TH soldering.</description>
@@ -353,10 +353,60 @@
 <wire x1="23.555" y1="4.1" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
 <pad name="11" x="17.145" y="0" drill="1.15" shape="long" rot="R90"/>
 <pad name="12" x="21.005" y="0" drill="1.15" shape="long" rot="R90"/>
-<wire x1="-23.555" y1="6.3" x2="23.555" y2="6.3" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="-5" x2="23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="-23.555" y1="6.3" x2="-23.555" y2="-5" width="0.1524" layer="48"/>
-<wire x1="23.555" y1="6.3" x2="23.555" y2="-5" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="23.555" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="-6.7" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="-23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="23.555" y1="4.8" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+</package>
+<package name="PAC-12_0P2MM_OFFSET">
+<description>1st and 12th pins are off from the pitch with ±0.2 mm to secure the connector before the TH soldering.</description>
+<pad name="1" x="-21.155" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="2" x="-17.145" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="3" x="-13.335" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="4" x="-9.525" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="5" x="-5.715" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="6" x="-1.905" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="7" x="1.905" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="8" x="5.715" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="9" x="9.525" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="10" x="13.335" y="0" drill="1.15" shape="long" rot="R90"/>
+<text x="-22.86" y="5.08" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-22.86" y="-4.7625" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-23.555" y1="4.1" x2="23.555" y2="4.1" width="0.1524" layer="21"/>
+<wire x1="-23.555" y1="-2.9" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
+<wire x1="-23.555" y1="4.1" x2="-23.555" y2="-2.9" width="0.1524" layer="21"/>
+<wire x1="23.555" y1="4.1" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
+<pad name="11" x="17.145" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="12" x="21.155" y="0" drill="1.15" shape="long" rot="R90"/>
+<wire x1="-23.555" y1="4.8" x2="23.555" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="-6.7" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="-23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="23.555" y1="4.8" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+</package>
+<package name="PAC-12_0P15MM_OFFSET">
+<description>1st and 12th pins are off from the pitch with ±0.15 mm to secure the connector before the TH soldering.</description>
+<pad name="1" x="-21.105" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="2" x="-17.145" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="3" x="-13.335" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="4" x="-9.525" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="5" x="-5.715" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="6" x="-1.905" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="7" x="1.905" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="8" x="5.715" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="9" x="9.525" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="10" x="13.335" y="0" drill="1.15" shape="long" rot="R90"/>
+<text x="-22.86" y="5.08" size="1.016" layer="25" ratio="18">&gt;NAME</text>
+<text x="-22.86" y="-4.7625" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-23.555" y1="4.1" x2="23.555" y2="4.1" width="0.1524" layer="21"/>
+<wire x1="-23.555" y1="-2.9" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
+<wire x1="-23.555" y1="4.1" x2="-23.555" y2="-2.9" width="0.1524" layer="21"/>
+<wire x1="23.555" y1="4.1" x2="23.555" y2="-2.9" width="0.1524" layer="21"/>
+<pad name="11" x="17.145" y="0" drill="1.15" shape="long" rot="R90"/>
+<pad name="12" x="21.105" y="0" drill="1.15" shape="long" rot="R90"/>
+<wire x1="-23.555" y1="4.8" x2="23.555" y2="4.8" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="-6.7" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="-23.555" y1="4.8" x2="-23.555" y2="-6.7" width="0.1524" layer="48"/>
+<wire x1="23.555" y1="4.8" x2="23.555" y2="-6.7" width="0.1524" layer="48"/>
 </package>
 </packages>
 <symbols>
@@ -706,6 +756,44 @@
 </technologies>
 </device>
 <device name="OP1MM_OFFSET" package="PAC-12_0P1MM_OFFSET">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-10" pin="P" pad="10"/>
+<connect gate="-11" pin="P" pad="11"/>
+<connect gate="-12" pin="P" pad="12"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+<connect gate="-7" pin="P" pad="7"/>
+<connect gate="-8" pin="P" pad="8"/>
+<connect gate="-9" pin="P" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0P15MM_OFFSET" package="PAC-12_0P15MM_OFFSET">
+<connects>
+<connect gate="-1" pin="P" pad="1"/>
+<connect gate="-10" pin="P" pad="10"/>
+<connect gate="-11" pin="P" pad="11"/>
+<connect gate="-12" pin="P" pad="12"/>
+<connect gate="-2" pin="P" pad="2"/>
+<connect gate="-3" pin="P" pad="3"/>
+<connect gate="-4" pin="P" pad="4"/>
+<connect gate="-5" pin="P" pad="5"/>
+<connect gate="-6" pin="P" pad="6"/>
+<connect gate="-7" pin="P" pad="7"/>
+<connect gate="-8" pin="P" pad="8"/>
+<connect gate="-9" pin="P" pad="9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0P2MM_OFFSET" package="PAC-12_0P2MM_OFFSET">
 <connects>
 <connect gate="-1" pin="P" pad="1"/>
 <connect gate="-10" pin="P" pad="10"/>
